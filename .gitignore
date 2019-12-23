@@ -1,4 +1,8 @@
+# environment variables
+.env
+
+# dependencies
+.bundle
+
 # Common files
 .DS_Store
-
-.env

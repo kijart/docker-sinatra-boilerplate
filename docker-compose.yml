@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: "ruby:2.5.3"
+    image: "ruby:2.6.5"
     ports:
       - "5000:5000"
     environment:
@@ -10,5 +10,6 @@ services:
       TZ: "Europe/Madrid"
     volumes:
       - .:/web
+      - ./.bundle:/usr/local/bundle
     working_dir: /web
-    command: bash -c "bundle install && foreman start"
+    command: foreman start
