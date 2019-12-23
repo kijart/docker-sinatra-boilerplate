@@ -1,19 +1,15 @@
 version: "3"
 services:
   web:
-    build: .
+    image: "ruby:2.6.5"
     ports:
-      - 5000:5000
+      - "5000:5000"
+    environment:
+      LANG: "C.UTF-8"
+      LC_ALL: "C.UTF-8"
+      TZ: "Europe/Madrid"
     volumes:
-      - .:/app
-      - bundle:/bundle
-    working_dir: /app
-    command: bash -c "bundle install && heroku local"
-
-  bundle:
-    image: busybox
-    volumes:
-      - /bundle
-
-volumes:
-  bundle:
+      - .:/web
+      - ./.bundle:/usr/local/bundle
+    working_dir: /web
+    command: foreman start
