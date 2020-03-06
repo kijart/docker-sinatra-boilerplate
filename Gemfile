@@ -1,7 +1,7 @@
 ruby '2.6.5'
 source 'https://rubygems.org'
 
-gem 'puma', '4.3.1'
+gem 'puma', '4.3.3'
 gem 'sinatra', '2.0.7'
 
 group :development do
