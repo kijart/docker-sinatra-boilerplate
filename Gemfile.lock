@@ -1,19 +1,21 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    dotenv (2.7.5)
-    foreman (0.86.0)
-    mustermann (1.0.3)
+    dotenv (2.7.6)
+    foreman (0.87.1)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
     nio4r (2.5.2)
-    puma (4.3.1)
+    puma (4.3.5)
       nio4r (~> 2.0)
-    rack (2.0.8)
-    rack-protection (2.0.7)
+    rack (2.2.3)
+    rack-protection (2.0.8.1)
       rack
-    sinatra (2.0.7)
+    ruby2_keywords (0.0.2)
+    sinatra (2.0.8.1)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.7)
+      rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
     tilt (2.0.10)
 
@@ -21,13 +23,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  dotenv (= 2.7.5)
-  foreman (= 0.86.0)
-  puma (= 4.3.1)
-  sinatra (= 2.0.7)
+  dotenv (= 2.7.6)
+  foreman (= 0.87.1)
+  puma (= 4.3.5)
+  sinatra (= 2.0.8.1)
 
 RUBY VERSION
-   ruby 2.6.5p114
+   ruby 2.7.1p83
 
 BUNDLED WITH
-   1.17.2
+   2.1.4
