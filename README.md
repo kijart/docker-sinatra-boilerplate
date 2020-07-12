@@ -24,8 +24,8 @@ Stop and remove Docker containers, networks, images, and volumes created by _up_
 
 ## Libraries included in the project
 
-- [ruby v2.6.5](https://www.ruby-lang.org)
-- [puma v4.3.1](https://github.com/puma/puma)
-- [sinatra v2.0.7](https://github.com/sinatra/sinatra)
-- [dotenv v2.7.5](https://github.com/bkeepers/dotenv)
-- [foreman v0.86.0](https://github.com/ddollar/foreman)
+- [ruby v2.7.1](https://www.ruby-lang.org)
+- [puma v4.3.5](https://github.com/puma/puma)
+- [sinatra v2.0.8.1](https://github.com/sinatra/sinatra)
+- [dotenv v2.7.6](https://github.com/bkeepers/dotenv)
+- [foreman v0.87.1](https://github.com/ddollar/foreman)
