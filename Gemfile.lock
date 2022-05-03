@@ -9,13 +9,13 @@ GEM
     puma (4.3.5)
       nio4r (~> 2.0)
     rack (2.2.3)
-    rack-protection (2.0.8.1)
+    rack-protection (2.2.0)
       rack
-    ruby2_keywords (0.0.2)
-    sinatra (2.0.8.1)
+    ruby2_keywords (0.0.5)
+    sinatra (2.2.0)
       mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.8.1)
+      rack (~> 2.2)
+      rack-protection (= 2.2.0)
       tilt (~> 2.0)
     tilt (2.0.10)
 
@@ -26,7 +26,7 @@ DEPENDENCIES
   dotenv (= 2.7.6)
   foreman (= 0.87.1)
   puma (= 4.3.5)
-  sinatra (= 2.0.8.1)
+  sinatra (= 2.2.0)
 
 RUBY VERSION
    ruby 2.7.1p83
